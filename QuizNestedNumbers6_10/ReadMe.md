@@ -1,3 +1,13 @@
+![Alt text](GoogleScholarship.png?raw=true "Badge")
+
+this is a Grow with Google Challenge Scholarship.3-month challenge course
+with learning matirial and quizes.Plus mentor support
+
+QUIZ
+
+Directions:
+Use a nested for loop to take the numbers array below and replace all of the values that are divisible by 2 (even numbers) with the string "even" and all other numbers with the string "odd".
+
 var numbers = [
     [243, 12, 23, 12, 45, 45, 78, 66, 223, 3],
     [34, 2, 1, 553, 23, 4, 66, 23, 4, 55],
@@ -11,14 +21,3 @@ var numbers = [
     [76, 7, 9, 6, 3, 73, 77, 100, 56, 100]
 ];
 
-
-for ( var i = 0; i < numbers.length; i++){
-    for (var y = 0; y < numbers[i].length; y++){
-        if(numbers[i][y] % 2 === 0){
-            numbers[i][y] = "even";
-        }
-        else{
-            numbers[i][y] = "odd";
-        }
-    }
-}
